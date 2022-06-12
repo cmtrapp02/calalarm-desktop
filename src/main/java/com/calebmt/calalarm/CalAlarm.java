@@ -4,7 +4,7 @@ package com.calebmt.calalarm;
  * Hello world!
  *
  */
-public class App 
+public class CalAlarm
 {
     public static void main( String[] args )
     {
