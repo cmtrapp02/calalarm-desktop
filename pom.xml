@@ -31,6 +31,12 @@
         <artifactId>javafx-controls</artifactId>
         <version>19-ea+8</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.caldav4j/caldav4j -->
+    <dependency>
+        <groupId>com.github.caldav4j</groupId>
+        <artifactId>caldav4j</artifactId>
+        <version>1.0.5</version>
+    </dependency>
   </dependencies>
       
   <build>
