@@ -14,7 +14,6 @@ public class CalAlarm extends Application {
     
     public static void main( String[] args ) {
         System.out.println("Main!");
-        CAlarmGUI gui = new CAlarmGUI();
         launch();
     }   
     
