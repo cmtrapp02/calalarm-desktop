@@ -4,6 +4,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.*;
 
 
 /**
@@ -19,10 +21,16 @@ public class CalAlarm extends Application {
     
     @Override
     public void start(Stage stage) {
-        String javaVersion = System.getProperty("java.version");
-        String javafxVersion = System.getProperty("javafx.version");
-        Label l = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
-        Scene scene = new Scene(new StackPane(l), 640, 480);
+
+        Label calendarURLLabel = new Label("Calendar URL: ");
+        TextField calendarInputField = new TextField();
+        calendarInputField.setPrefColumnCount(30);
+        
+        GridPane rootPane = new GridPane();
+        //rootPane.getColumnConstraints().add(new ColumnConstraints(200));
+        rootPane.addRow(0, calendarURLLabel, calendarInputField);
+        
+        Scene scene = new Scene(rootPane, 640, 480);
         stage.setScene(scene);
         stage.show();
     }
