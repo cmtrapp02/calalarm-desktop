@@ -7,6 +7,7 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.scene.control.TextField;
+import javafx.scene.control.PasswordField;
 import javafx.scene.layout.*;
 import javafx.scene.control.ButtonBase;
 import javafx.event.ActionEvent;
@@ -25,34 +26,63 @@ public class Main extends Application {
     }   
     
     @Override
-    public void start(Stage stage) {
+    public void start(Stage primaryStage) {
 
-        stage.initStyle(StageStyle.UNDECORATED);
+        // Check if this is the first time 
+        // In the future we will parse a .json file for this setting
+        boolean firstTimeSignIn = true;
+
+        if (firstTimeSignIn) {
+            Stage signInStage = new Stage(StageStyle.DECORATED);
+            SignInGUI signIn = new SignInGUI(signInStage);
+        }
+            
+
+
+        // EVERYTHING BELLOW THIS LINE IS FOR THE MVP 
+
+        primaryStage.initStyle(StageStyle.DECORATED);
 
         // Labels
+        Label usernameLabel = new Label("Username: ");
+        Label passwordLabel = new Label("Password: ");
         Label calendarURLLabel = new Label("Calendar URL: ");
         Label URLStatus = new Label("The text entered is: ");
+
 
         // Input fields
         TextField calendarInput = new TextField();
         calendarInput.setPrefColumnCount(30);
+        TextField usernameInput = new TextField();
+        usernameInput.setPrefColumnCount(30);
+        PasswordField passwordInput = new PasswordField();
+        passwordInput.setPrefColumnCount(30);
 
-        EventHandler<ActionEvent> event = new EventHandler<ActionEvent>() {
-            public void handle(ActionEvent e)
-            {
+        // EventHandler<ActionEvent> event = new EventHandler<ActionEvent>() {
+        //     public void handle(ActionEvent e)
+        //     {
+                
+        //     }
+        // };
+
+        calendarInput.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent e) {
                 System.out.println("Action!");
             }
-        };
+        });
 
-        calendarInput.setOnAction(event);
+        //calendarInput.setOnAction(event);
 
         GridPane rootPane = new GridPane();
         //rootPane.getColumnConstraints().add(new ColumnConstraints(200));
-        rootPane.addRow(0, calendarURLLabel, calendarInput);
+        rootPane.addRow(0, usernameLabel, usernameInput);
+        rootPane.addRow(1, passwordLabel, passwordInput);
+        rootPane.addRow(2, calendarURLLabel, calendarInput);
         
         Scene scene = new Scene(rootPane, 640, 480);
-        stage.setScene(scene);
-        stage.show();
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 
     
