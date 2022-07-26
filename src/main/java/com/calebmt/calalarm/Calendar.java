@@ -11,8 +11,8 @@ class Calendar {
 
     }
 
-    public void handleCalendarSignIn() {
-
+    public void handleCalendarSignIn(String user, String pass, String url) {
+        System.out.println("Data received.");
     }
 
     private void getCalendarAuth(URL calendar) {

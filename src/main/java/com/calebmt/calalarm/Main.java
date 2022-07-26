@@ -35,6 +35,7 @@ public class Main extends Application {
         if (firstTimeSignIn) {
             Stage signInStage = new Stage(StageStyle.DECORATED);
             SignInGUI signIn = new SignInGUI(signInStage);
+            signIn.showScene();
         }
             
 
@@ -74,11 +75,12 @@ public class Main extends Application {
 
         //calendarInput.setOnAction(event);
 
-        GridPane rootPane = new GridPane();
+        StackPane rootPane = new StackPane();
         //rootPane.getColumnConstraints().add(new ColumnConstraints(200));
-        rootPane.addRow(0, usernameLabel, usernameInput);
-        rootPane.addRow(1, passwordLabel, passwordInput);
-        rootPane.addRow(2, calendarURLLabel, calendarInput);
+        // rootPane.getChildren().add(0, usernameInput);
+        // rootPane.getChildren().add(1, passwordLabel);
+        // rootPane.getChildren().add(2, calendarURLLabel);
+        rootPane.getChildren().addAll(calendarInput, calendarURLLabel);
         
         Scene scene = new Scene(rootPane, 640, 480);
         primaryStage.setScene(scene);
