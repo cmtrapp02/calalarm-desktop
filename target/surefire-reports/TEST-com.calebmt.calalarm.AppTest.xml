@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.calebmt.calalarm.AppTest" time="0.014" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.calebmt.calalarm.AppTest" time="0.013" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18.0.1.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/calebt/Nextcloud/repos/calalarm-desktop/target/surefire/surefirebooter10379049425873147750.jar /Users/calebt/Nextcloud/repos/calalarm-desktop/target/surefire 2022-07-25T13-45-22_453-jvmRun1 surefire11617171208825426304tmp surefire_0373746746917899004tmp"/>
+    <property name="sun.java.command" value="/Users/calebt/Nextcloud/repos/calalarm-desktop/target/surefire/surefirebooter16157312210227503259.jar /Users/calebt/Nextcloud/repos/calalarm-desktop/target/surefire 2022-07-27T14-55-26_422-jvmRun1 surefire8164475923592251745tmp surefire_010438154531200968861tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/calebt/Nextcloud/repos/calalarm-desktop/target/test-classes:/Users/calebt/Nextcloud/repos/calalarm-desktop/target/classes:/Users/calebt/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/calebt/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-controls/19-ea+8/javafx-controls-19-ea+8.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-controls/19-ea+8/javafx-controls-19-ea+8-mac-aarch64.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-graphics/19-ea+8/javafx-graphics-19-ea+8.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-graphics/19-ea+8/javafx-graphics-19-ea+8-mac-aarch64.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-base/19-ea+8/javafx-base-19-ea+8.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-base/19-ea+8/javafx-base-19-ea+8-mac-aarch64.jar:/Users/calebt/.m2/repository/com/github/caldav4j/caldav4j/1.0.5/caldav4j-1.0.5.jar:/Users/calebt/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/calebt/.m2/repository/org/mnode/ical4j/ical4j/3.0.1/ical4j-3.0.1.jar:/Users/calebt/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/calebt/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar:/Users/calebt/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/calebt/.m2/repository/org/apache/jackrabbit/jackrabbit-webdav/2.17.7/jackrabbit-webdav-2.17.7.jar:/Users/calebt/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.27/jcl-over-slf4j-1.7.27.jar:/Users/calebt/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/calebt/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/calebt/.m2/repository/net/sf/ehcache/ehcache/2.10.6/ehcache-2.10.6.jar:/Users/calebt/.m2/repository/org/jsoup/jsoup/1.15.2/jsoup-1.15.2.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/calebt/Nextcloud/repos/calalarm-desktop/target/surefire/surefirebooter10379049425873147750.jar"/>
+    <property name="surefire.real.class.path" value="/Users/calebt/Nextcloud/repos/calalarm-desktop/target/surefire/surefirebooter16157312210227503259.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="18.0.1.1+0"/>

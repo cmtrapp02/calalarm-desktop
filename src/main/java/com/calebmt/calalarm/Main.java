@@ -1,5 +1,6 @@
 package com.calebmt.calalarm;
 
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -8,8 +9,8 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.scene.control.TextField;
 import javafx.scene.control.PasswordField;
-import javafx.scene.layout.*;
-import javafx.scene.control.ButtonBase;
+//import javafx.scene.layout.*;
+//import javafx.scene.control.ButtonBase;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 
@@ -84,7 +85,7 @@ public class Main extends Application {
         
         Scene scene = new Scene(rootPane, 640, 480);
         primaryStage.setScene(scene);
-        primaryStage.show();
+        //primaryStage.show();
     }
 
     
