@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.calebmt.calalarm.AppTest" time="0.013" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.calebmt.calalarm.AppTest" time="0.029" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/calebt/Nextcloud/repos/calalarm-desktop/target/test-classes:/Users/calebt/Nextcloud/repos/calalarm-desktop/target/classes:/Users/calebt/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/calebt/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-controls/19-ea+8/javafx-controls-19-ea+8.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-controls/19-ea+8/javafx-controls-19-ea+8-mac-aarch64.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-graphics/19-ea+8/javafx-graphics-19-ea+8.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-graphics/19-ea+8/javafx-graphics-19-ea+8-mac-aarch64.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-base/19-ea+8/javafx-base-19-ea+8.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-base/19-ea+8/javafx-base-19-ea+8-mac-aarch64.jar:/Users/calebt/.m2/repository/com/github/caldav4j/caldav4j/1.0.5/caldav4j-1.0.5.jar:/Users/calebt/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/calebt/.m2/repository/org/mnode/ical4j/ical4j/3.0.1/ical4j-3.0.1.jar:/Users/calebt/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/calebt/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar:/Users/calebt/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/calebt/.m2/repository/org/apache/jackrabbit/jackrabbit-webdav/2.17.7/jackrabbit-webdav-2.17.7.jar:/Users/calebt/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.27/jcl-over-slf4j-1.7.27.jar:/Users/calebt/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/calebt/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/calebt/.m2/repository/net/sf/ehcache/ehcache/2.10.6/ehcache-2.10.6.jar:/Users/calebt/.m2/repository/org/jsoup/jsoup/1.15.2/jsoup-1.15.2.jar:"/>
-    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\cmtra\Nextcloud\repos\calalarm-desktop\target\test-classes;C:\Users\cmtra\Nextcloud\repos\calalarm-desktop\target\classes;C:\Users\cmtra\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\cmtra\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-controls\19-ea+8\javafx-controls-19-ea+8.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-controls\19-ea+8\javafx-controls-19-ea+8-win.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-graphics\19-ea+8\javafx-graphics-19-ea+8.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-graphics\19-ea+8\javafx-graphics-19-ea+8-win.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-base\19-ea+8\javafx-base-19-ea+8.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-base\19-ea+8\javafx-base-19-ea+8-win.jar;C:\Users\cmtra\.m2\repository\com\github\caldav4j\caldav4j\1.0.5\caldav4j-1.0.5.jar;C:\Users\cmtra\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\cmtra\.m2\repository\org\mnode\ical4j\ical4j\3.0.1\ical4j-3.0.1.jar;C:\Users\cmtra\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\cmtra\.m2\repository\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\cmtra\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\cmtra\.m2\repository\org\apache\jackrabbit\jackrabbit-webdav\2.17.7\jackrabbit-webdav-2.17.7.jar;C:\Users\cmtra\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.27\jcl-over-slf4j-1.7.27.jar;C:\Users\cmtra\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cmtra\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cmtra\.m2\repository\net\sf\ehcache\ehcache\2.10.6\ehcache-2.10.6.jar;C:\Users\cmtra\.m2\repository\org\jsoup\jsoup\1.15.2\jsoup-1.15.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="os.name" value="Mac OS X"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="18"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18.0.1.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/calebt/Nextcloud/repos/calalarm-desktop/target/surefire/surefirebooter16157312210227503259.jar /Users/calebt/Nextcloud/repos/calalarm-desktop/target/surefire 2022-07-27T14-55-26_422-jvmRun1 surefire8164475923592251745tmp surefire_010438154531200968861tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\cmtra\AppData\Local\Temp\surefire2099995443858094732\surefirebooter5330157358826250418.jar C:\Users\cmtra\AppData\Local\Temp\surefire2099995443858094732 2022-07-30T14-58-06_550-jvmRun1 surefire9348358142626988734tmp surefire_0398923911679747537tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/calebt/Nextcloud/repos/calalarm-desktop/target/test-classes:/Users/calebt/Nextcloud/repos/calalarm-desktop/target/classes:/Users/calebt/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/calebt/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-controls/19-ea+8/javafx-controls-19-ea+8.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-controls/19-ea+8/javafx-controls-19-ea+8-mac-aarch64.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-graphics/19-ea+8/javafx-graphics-19-ea+8.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-graphics/19-ea+8/javafx-graphics-19-ea+8-mac-aarch64.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-base/19-ea+8/javafx-base-19-ea+8.jar:/Users/calebt/.m2/repository/org/openjfx/javafx-base/19-ea+8/javafx-base-19-ea+8-mac-aarch64.jar:/Users/calebt/.m2/repository/com/github/caldav4j/caldav4j/1.0.5/caldav4j-1.0.5.jar:/Users/calebt/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/calebt/.m2/repository/org/mnode/ical4j/ical4j/3.0.1/ical4j-3.0.1.jar:/Users/calebt/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/calebt/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar:/Users/calebt/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/calebt/.m2/repository/org/apache/jackrabbit/jackrabbit-webdav/2.17.7/jackrabbit-webdav-2.17.7.jar:/Users/calebt/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.27/jcl-over-slf4j-1.7.27.jar:/Users/calebt/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/calebt/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/calebt/.m2/repository/net/sf/ehcache/ehcache/2.10.6/ehcache-2.10.6.jar:/Users/calebt/.m2/repository/org/jsoup/jsoup/1.15.2/jsoup-1.15.2.jar:"/>
+    <property name="surefire.test.class.path" value="C:\Users\cmtra\Nextcloud\repos\calalarm-desktop\target\test-classes;C:\Users\cmtra\Nextcloud\repos\calalarm-desktop\target\classes;C:\Users\cmtra\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\cmtra\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-controls\19-ea+8\javafx-controls-19-ea+8.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-controls\19-ea+8\javafx-controls-19-ea+8-win.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-graphics\19-ea+8\javafx-graphics-19-ea+8.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-graphics\19-ea+8\javafx-graphics-19-ea+8-win.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-base\19-ea+8\javafx-base-19-ea+8.jar;C:\Users\cmtra\.m2\repository\org\openjfx\javafx-base\19-ea+8\javafx-base-19-ea+8-win.jar;C:\Users\cmtra\.m2\repository\com\github\caldav4j\caldav4j\1.0.5\caldav4j-1.0.5.jar;C:\Users\cmtra\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\cmtra\.m2\repository\org\mnode\ical4j\ical4j\3.0.1\ical4j-3.0.1.jar;C:\Users\cmtra\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\cmtra\.m2\repository\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\cmtra\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\cmtra\.m2\repository\org\apache\jackrabbit\jackrabbit-webdav\2.17.7\jackrabbit-webdav-2.17.7.jar;C:\Users\cmtra\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.27\jcl-over-slf4j-1.7.27.jar;C:\Users\cmtra\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cmtra\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cmtra\.m2\repository\net\sf\ehcache\ehcache\2.10.6\ehcache-2.10.6.jar;C:\Users\cmtra\.m2\repository\org\jsoup\jsoup\1.15.2\jsoup-1.15.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/calebt"/>
+    <property name="user.home" value="C:\Users\cmtra"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2022-04-22"/>
-    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/18.0.1.1/libexec/openjdk.jdk/Contents/Home"/>
-    <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/calebt/Nextcloud/repos/calalarm-desktop"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\cmtra\Nextcloud\repos\calalarm-desktop"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/calebt/Nextcloud/repos/calalarm-desktop/target/surefire/surefirebooter16157312210227503259.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cmtra\AppData\Local\Temp\surefire2099995443858094732\surefirebooter5330157358826250418.jar"/>
+    <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="18.0.1.1+0"/>
-    <property name="user.name" value="calebt"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="12.3"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="cmtra"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Homebrew"/>
-    <property name="localRepository" value="/Users/calebt/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="java.io.tmpdir" value="/var/folders/yw/_qzq14xs6tl5yh1s0vhqv7kc0000gn/T/"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\cmtra\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\cmtra\AppData\Local\Temp\"/>
     <property name="java.version" value="18.0.1.1"/>
-    <property name="user.dir" value="/Users/calebt/Nextcloud/repos/calalarm-desktop"/>
-    <property name="os.arch" value="aarch64"/>
+    <property name="user.dir" value="C:\Users\cmtra\Nextcloud\repos\calalarm-desktop"/>
+    <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/calebt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\cmtra\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;D:\bazelisk;D:\Dev Tools\apache-maven-3.8.5\bin;C:\Program Files (x86)\Tailscale IPN;C:\Users\cmtra\AppData\Local\Microsoft\WindowsApps;C:\Users\cmtra\.dotnet\tools;C:\Users\cmtra\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Homebrew"/>
-    <property name="java.vm.version" value="18.0.1.1+0"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.calebmt.calalarm.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.calebmt.calalarm.AppTest" time="0.002"/>
 </testsuite>
