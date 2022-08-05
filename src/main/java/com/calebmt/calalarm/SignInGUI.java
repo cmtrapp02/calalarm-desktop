@@ -78,6 +78,8 @@ class SignInGUI {
 
         this.calendar = new Calendar();
 
+        // TEMPORARY
+        calendar.handleCalendarSignIn("user", "pass", "url");
     }
 
     private void addNodesToRoot() {
